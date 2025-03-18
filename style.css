@@ -1,3 +1,6 @@
+/* Classes: cat-rental, godzilla, ninja-monkeys  */
+/*ID's: godzilla-paragraph*/
+
 * {
   margin: 0;
   box-sizing: border-box;
@@ -27,6 +30,38 @@ article {
 h2 {
   font-family: "Knewave", system-ui;
 }
+main {
+  text-align: center;
+}
+.godzilla {
+  border: dashed rgb(207, 61, 129) 10px;
+  margin: 20px 10px;
+}
+.cat-rental {
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 10px 20px;
+  background-color: black;
+}
+.ninja-monkeys {
+  border: 10px dotted white;
+  margin: 15px 20px;
+  padding: 10px;
+  background-color: darkgray;
+}
+p {
+  background-color: rgb(193, 234, 117);
+  font-size: 18px;
+  font-weight: 900;
+  font-style: oblique;
+  border-radius: 0px 0px 10px 10px;
+}
+#godzilla-paragraph {
+  color: red;
+  background-color: lightblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 img {
   width: 300px;
+  border-radius: 20px;
 }
